@@ -132,7 +132,7 @@ class Solution {
         return true;
       }
 
-      if (o == null || getClass() != o.getClass()) {
+      if (o == null || this.getClass() != o.getClass()) {
         return false;
       }
 
